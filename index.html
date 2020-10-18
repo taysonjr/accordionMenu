@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>sample</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="jquery-1.10.2.min.js" type="text/javascript"></script>
+    <script src="index.js" type="text/javascript"></script>
+    <!-- <script type="text/javascript">
+			$(function(){
+				$("ul.subs").hide();
+				$("div.main").click(function(){
+					$("ul.subs").hide();
+					if($("+ul",this).css("display")=="none"){
+						$("+ul",this).show();
+					}
+				});
+			});
+		</script> -->
+  </head>
+  <body>
+    <div class="wrapper">
+      <div id="nav">
+        <ul>
+          <li class="color-blue">
+            <div class="main">ファッション</div>
+            <ul class="subs open">
+              <li><a href="">アウター</a></li>
+              <li><a href="">インナー</a></li>
+              <li><a href="">ボトム</a></li>
+              <li><a href="">アクセサリー</a></li>
+            </ul>
+          </li>
+          <li class="color-red">
+            <div class="main">インテリア</div>
+            <ul class="subs">
+              <li><a href="">ソファ</a></li>
+              <li><a href="">ベッド</a></li>
+              <li><a href="">テーブル</a></li>
+              <li><a href="">チェア</a></li>
+            </ul>
+          </li>
+          <li class="color-yellow">
+            <div class="main">ステーショナリ</div>
+            <ul class="subs">
+              <li><a href="">ペン</a></li>
+              <li><a href="">ノート</a></li>
+              <li><a href="">ファイル</a></li>
+            </ul>
+          </li>
+          <li class="color-green">
+            <div class="main">生活雑貨</div>
+            <ul class="subs">
+              <li><a href="">キッチン用品</a></li>
+              <li><a href="">掃除・洗濯用品</a></li>
+              <li><a href="">バス・トイレ</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

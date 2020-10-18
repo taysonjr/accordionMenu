@@ -1,0 +1,128 @@
+body, ul, li, div {
+	margin: 0;
+	padding: 0;
+}
+body, ul, li, div {
+	margin: 0;
+	padding: 0;
+}
+img {
+	border:0;
+}
+a{
+  text-decoration: none;
+}
+
+.wrapper {
+	width: 740px;
+	margin: 30px auto;
+}
+
+
+#nav{
+  width: 190px;
+}
+
+#nav li{
+  list-style: none;
+}
+
+div.main{
+  height: 60px;
+  line-height: 60px;
+  text-indent: 25px;
+  background-color: #3fc6f3;
+  border-right: 10px solid #0d9be5;
+  cursor: pointer;
+}
+
+.subs li a{
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  text-indent: 25px;
+  background-color: #f5f5f5;
+  border-right: 10px solid #0d9be5;
+  font-size: 12px;
+  color: #164158;
+}
+
+.color-blue div.main{
+  background-color: #3fc6f3;
+  border-right: 10px solid #0d9be5;
+}
+.color-blue li a{
+  border-right: 10px solid #0d9be5;
+  color: #0d9be5;
+}
+.color-blue li a:hover{
+  background-color: #3fc6f3;
+  color: #FFF;
+}
+
+.color-red div.main{
+  background-color: #ff625f;
+  border-right: 10px solid #fd2621;
+}
+.color-red li a{
+  border-right: 10px solid #fd2621;
+  color: #fd2621;
+}
+.color-red li a:hover{
+  background-color: #ff625f;
+  color: #FFF;
+}
+
+.color-yellow div.main{
+  background-color: #ffbd01;
+  border-right: 10px solid #ff8d00;
+}
+.color-yellow li a{
+  border-right: 10px solid #ff8d00;
+  color: #ff8d00;
+}
+.color-yellow li a:hover{
+  background-color: #ffbd01;
+  color: #FFF;
+}
+
+.color-green div.main{
+  background-color: #46d7c6;
+  border-right: 10px solid #15b59b;
+}
+.color-green li a{
+  border-right: 10px solid #15b59b;
+  color: #15b59b;
+}
+.color-green li a:hover{
+  background-color: #46d7c6;
+  color: #FFF;
+}
+
+/* サブメニューを開いたときに背景画像を切り替える */
+.color-blue div.open{
+  background: url("images/arrow.png") no-repeat #0d9be5 28px bottom;
+}
+.color-red div.open{
+  background: url("images/arrow.png") no-repeat #fd2621 28px bottom;
+}
+.color-yellow div.open{
+  background: url("images/arrow.png") no-repeat #ff8d00 28px bottom;
+}
+.color-green div.open{
+  background: url("images/arrow.png") no-repeat #15b59b 28px bottom;
+}
+
+/* マウスオーバーでスタイルを切り替える */
+.color-blue div.rollover{
+  background-color: #0d9be5;
+}
+.color-red div.rollover{
+  background-color: #fd2621;
+}
+.color-yellow div.rollover{
+  background-color: #ff8d00;
+}
+.color-green div.rollover{
+  background-color: #15b59b;
+}
